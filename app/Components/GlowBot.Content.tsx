@@ -13,8 +13,12 @@ export default function GlowBotContent() {
       />
 
       <div className="content">
-        <h4 className="title text-xl lg:text-5xl mb-4">Prueba el nuevo GlowBot.</h4>
-        <span className="text-lg">Estas son algunas cosas con las que puede ayudarte GlowBot</span>
+        <h4 className="title text-xl lg:text-5xl mb-4">
+          Prueba el nuevo GlowBot.
+        </h4>
+        <span className="text-lg">
+          Estas son algunas cosas con las que puede ayudarte GlowBot
+        </span>
         <ol className="list-disc pl-6 text-lg">
           <li>Conocer los producto disponibles.</li>
           <li>Conocer algunos problemas de la piel.</li>
@@ -23,6 +27,23 @@ export default function GlowBotContent() {
             piel.
           </li>
         </ol>
+
+        <div className="p-4 mt-4 bg-white rounded-sm max-w-sm text-black">
+          <span className="text-lg">
+            Este es un ejemplo de prompts que puedes seguir para tener una idea
+            del alcanze de GlowBot.
+          </span>
+          <ol className="list-disc pl-6 text-base">
+            <li>Hola GlowBot</li>
+            <li>Quiero saber que tengo en mi piel</li>
+            <li>
+              Tengo alergia al latex, de los productos que vendes, cuales me
+              recomiendas?
+            </li>
+            <li>Que tan popular es la Crema hidratante LatexFree?</li>
+            <li>Gracias!</li>
+          </ol>
+        </div>
       </div>
     </div>
   );
