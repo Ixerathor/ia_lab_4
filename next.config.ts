@@ -7,8 +7,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true
   },
-  assetPrefix: isProd? "https://ixerathor.github.io/ia_lab_4/" : "http://localhost:3000",
-  basePath: isProd? "https://ixerathor.github.io/ia_lab_4/" : "http://localhost:3000",
+  assetPrefix: isProd? "/ia_lab_4/" : "",
+  basePath: isProd? "/ia_lab_4" : "",
   output: 'export'
 };
 

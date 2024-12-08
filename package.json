@@ -2,12 +2,13 @@
   "name": "glowbot",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ixerathor.github.io/ia_lab_4/",
+  "homepage": "https://ixerathor.github.io/ia_lab_4",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d out"
   },
   "dependencies": {
